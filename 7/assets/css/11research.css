@@ -1,0 +1,92 @@
+#research-info{
+	height:auto;
+}
+
+.ac-container1 {
+	margin:0 auto;
+	width: 100%;
+	overflow: hidden;
+	color:#000;
+	background-color:#d55f51;
+	padding: 3px;
+	text-align: left;
+}
+
+/**************/
+.ac-container1 label{ 
+	font-famimly: ;
+	overflow:hidden; 
+	color:#000;
+	cursor:pointer; 
+	background: #FFF; 
+	margin:3px; 
+	position: relative;
+	z-index: 20;	
+	padding: 2px 20px;
+	display: block;
+	height: 35px ;
+	font-size: 19px;
+}
+.ac-container1 label:hover{
+	background: #f6b4ac;
+}
+.ac-container1 input:checked + label,
+.ac-container1 input:checked + label:hover{
+	background: #f6b4ac;
+	color: #000;
+	margin: 3px;
+	font-size: 19px;
+	padding: 2px 20px;
+}
+.ac-container1 label:hover:after,
+.ac-container1 input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 7px;
+	background: transparent url(http://tympanus.net/Tutorials/CSS3Accordion/images/arrow_down.png) no-repeat center center;	
+}
+.ac-container1 input:checked + label:hover:after{
+	background-image: url(http://tympanus.net/Tutorials/CSS3Accordion/images/arrow_up.png);
+}
+.ac-container1 input{
+	display: none;
+}
+.ac-container1 article{
+	width:99%;
+	background: #fafafa;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	margin:0 auto;
+
+	-webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.ac-container1 article p{
+	text-indent:25px;
+	margin: 3px;
+	padding: 10px;
+	display: block;
+}
+.ac-container1 input:checked ~ article{
+	-webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+.ac-container1 input:checked ~ article.ac-short{
+	height: auto;
+}
+.ac-container1 input:checked ~ article.ac-tall{
+	height: auto;
+}
+.ac-container1 input:checked ~ article.ac-grande{
+	height: auto;
+}

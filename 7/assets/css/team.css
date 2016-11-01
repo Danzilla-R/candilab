@@ -1,0 +1,32 @@
+.team-member {
+	text-align: center;
+	margin-bottom: 50px;
+	width:90%;
+	max-height:500px;
+	max-width:400px;
+}
+.team-member img {
+	width:50%;
+	max-height:185px;
+	margin: 0 auto;
+	border: 7px solid white;
+}
+.team-member h4 {
+	margin-top: 25px;
+	margin-bottom: 0;
+	text-transform: none;
+}
+.team-member p {
+	margin-top: 0;
+}
+
+.test-1{
+	max-height:300px;
+	overflow:hidden;
+	text-align:center;
+	
+}
+
+.section-heading{
+	padding-bottom:15px;
+}
