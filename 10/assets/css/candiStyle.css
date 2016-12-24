@@ -1,0 +1,200 @@
+/* Background */
+.bgTest1{  background: red;}
+.bgTest2{  background: yellow;}
+.bgTest3{  background: #18BC9C;  color: white;}
+.bgTest4{	 background: #F64747;	color: #E0FFFF;}
+.borderTest1{border:red 1px solid;}
+.borderTest2{border:blue 1px solid;}
+
+ul.centered-pills {
+ display: inline-block;
+}
+.whiteColor{color:#FFF}
+
+.involved-1{	background: #F0AD4E;}
+.involved-2{	background: #4ef0ad;}
+.involved { background: #58A4B0;}
+.research{	background: #ED6A5A;}
+.team{	background: #ECECEA;color: #000;}
+.contact{  background-color: light-gray;  color: #000;}
+
+.getSocial{}
+
+.heightAuto{  height:600px;}
+/* Logo background*/
+.headerLogo {
+	 width:40%;
+	 padding:0;
+ }
+.img-centered {
+  margin: 0 auto;
+}
+#more-research{
+	padding-top:60px;
+}
+#more-research > a {padding:30px;}
+
+.carter-Down {color: #d22020;}
+.carter-Down-1 {color: #53b3be;}
+
+/*Header*/
+header {
+  text-align: center;
+  background: #FFF;
+  color: #011A27;
+}
+header .container {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+header img {
+  display: block;
+  margin: 0 auto;
+}
+header .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 130px;
+    padding-bottom: 100px;
+  }
+  header .intro-text .name {
+    font-size: 4.75em;
+  }
+  header .intro-text .skills {
+    font-size: 1.75em;
+  }
+}
+
+/* Research */
+.reHead{}
+.reHead:hover{}
+.reInfo{
+	color:#dafcec;
+  cursor:pointer;
+}
+.reInfo:hover{
+	color:#FFF;
+}
+.reDot{
+	color:#000;
+	font-weight:600;
+  cursor:pointer;
+}
+.reDot:hover{
+	color:#ccc;
+	font-weight:600;
+}
+
+/* Get Involved */
+#involved{
+}
+.volunteer, .student {
+  font-size:3em;
+  overflow:hidden;
+  text-align:center;
+}
+.innerInvolved{
+  width:100%;
+  padding:50px 0 50px 0;
+  height:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.innerInvolved > img{
+  margin:0 auto;
+}
+.ainnerInvolved:hover{
+  background-color:#d2cdf9;
+}
+/* Contact Form */
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eeeeee;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
+.floating-label-form-group:not(:first-child) {
+  padding-left: 14px;
+  border-left: 1px solid #eeeeee;
+}
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+.floating-label-form-group-with-focus label {
+  color: #18BC9C;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #eeeeee;
+}
+
+/* Get Social */
+
+.facebook-em {
+  margin-left:100px;
+  height:500px;
+  width:350px;
+}
+.twiiter-em {
+  height:500px;
+  width:350px;
+  margin-left:50px;
+}
+
+/* Footer */
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
